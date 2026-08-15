@@ -1,0 +1,10 @@
+name: Sync pinned README polish
+
+on:
+  workflow_dispatch:
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Pinned README polish is managed in each repository."
